@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-function App() {
+function Productos() {
   const [resultado, setResultado] = useState([]);
 
   useEffect(() => {
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Productos;
