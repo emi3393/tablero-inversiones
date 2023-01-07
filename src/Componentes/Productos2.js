@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './App.css';
+// import './App.css';
 
 function Productos2() {
   const [inversiones, setInversiones] = useState([]);

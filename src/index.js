@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
-import Productos from './Productos';
-import Productos2 from './Productos2';
-import Categorias from './Categorias';
+import Productos from './Componentes/Productos';
+import Usuarios from './Componentes/Usuarios';
+import Productos2 from './Componentes/Productos2';
+import Categorias from './Componentes/Categorias';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Usuarios />
     <Productos />
     <Categorias />
     <Productos2 />
