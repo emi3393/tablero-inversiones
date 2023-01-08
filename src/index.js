@@ -6,6 +6,8 @@ import Productos from './Componentes/Productos';
 import Usuarios from './Componentes/Usuarios';
 import Productos2 from './Componentes/Productos2';
 import Categorias from './Componentes/Categorias';
+import UltimoUsuario from './Componentes/Ultimo-usuario';
+import UltimaInversion from './Componentes/Ultima-inversion';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +17,8 @@ root.render(
     <Productos />
     <Categorias />
     <Productos2 />
+    <UltimoUsuario />
+    <UltimaInversion />
   </React.StrictMode>
 );
 

@@ -6,7 +6,7 @@ function Productos2() {
 
   useEffect(() => {
     console.log("%cse montó el componente", "color:green");
-    fetch("https://inversiones.onrender.com/inversiones")
+    fetch("http://localhost:3000/inversiones")
     .then(response => response.json())
     .then(data => {
         setInversiones(data.product)
@@ -20,10 +20,10 @@ function Productos2() {
         <ul>
             {inversiones.map((inversion, i) => {
                 return (
-                    <li key={1}>
+                    <li key={i}>
                         <h2>Nombre de inversión: {inversion.nombre_inversion} </h2>
                         <h2>ID de inversión: {inversion.id_inversion} </h2>
-                        <h2>ID riesgo: {inversion.id_riesgo} </h2>
+                        <h2>Tipo de riesgo: {inversion.riesgos.nombre_riesgo} </h2>
                     </li>
                 )
             })
