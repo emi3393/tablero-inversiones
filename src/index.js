@@ -16,10 +16,9 @@ root.render(
   <React.StrictMode>
     <Usuarios />
     <Productos />
-    <Categorias />
+   
     <Productos2 />
-    <UltimoUsuario />
-    <UltimaInversion />
+    <Categorias />
   </React.StrictMode>
 );
 

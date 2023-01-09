@@ -1,8 +1,25 @@
 body{
-    background: burlywood;
+    background-color: #b6b2b2;
+ 
+    
 }
 
-.prueba{
-    color: red;
+.fondoOscuro {
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: #030114;
+    color: #32d811;;
+    margin: 70px;
+    padding: 20px;
+    border-radius: ;
 }
+
+.panelInferior {
+    border-style: solid;
+    border-color:#b6b2b2;
+    margin: 15px;
+}
+
+
 

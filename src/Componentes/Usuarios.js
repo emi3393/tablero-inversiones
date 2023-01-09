@@ -15,7 +15,9 @@ function Usuarios() {
   }, [])
 
   return (
-    <h1>La cantidad de usuarios son: {resultado.total}</h1>
+    <div className='fondoOscuro'>
+    <h1>Tenemos {resultado.total} usuarios registrados.</h1>
+    </div>
   );
 }
 
