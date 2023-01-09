@@ -15,7 +15,7 @@ function UltimaInversion() {
   }, [])
   
   return (
-    <div>
+    <div className='fondoOscuro'>
         <h1>La última inversión fue realizada por {inversion.ultimo.usuarios.nombre} {inversion.ultimo.usuarios.apellido}.</h1>
         <h1>{inversion.ultimo.usuarios.nombre} invirtió en {inversion.ultimo.inversiones.nombre_inversion},</h1>
         <h1>la operación tuvo un monto inicial de ${inversion.ultimo.monto_inicial}, un rendimiento de 
