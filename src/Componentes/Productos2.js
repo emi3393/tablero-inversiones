@@ -6,7 +6,7 @@ function Productos2() {
 
   useEffect(() => {
     console.log("%cse montó el componente", "color:green");
-    fetch("http://localhost:3000/inversiones")
+    fetch("https://inversiones.onrender.com/inversiones")
     .then(response => response.json())
     .then(data => {
         setInversiones(data.product)
