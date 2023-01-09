@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import "./igna.css";
 
 function App() {
   const [resultado, setResultado] = useState([]);
@@ -15,7 +16,7 @@ function App() {
   }, [])
   
   return (
-    <h1>La cantidad de productos es {resultado.count}</h1>
+    <h1 className='prueba'>La cantidad de productos es {resultado.count}</h1>
   );
 }
 

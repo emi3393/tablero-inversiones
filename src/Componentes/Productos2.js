@@ -20,7 +20,7 @@ function Productos2() {
         <ul>
             {inversiones.map((inversion, i) => {
                 return (
-                    <li key={1}>
+                    <li key={i}>
                         <h2>Nombre de inversión: {inversion.nombre_inversion} </h2>
                         <h2>ID de inversión: {inversion.id_inversion} </h2>
                         <h2>ID riesgo: {inversion.id_riesgo} </h2>
