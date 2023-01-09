@@ -15,8 +15,10 @@ function UltimoUsuario() {
   }, [])
   
   return (
+    <div className='fondoOscuro'>
     <h1>El ultimo usuario creado es {usuario.nombre} {usuario.apellido}</h1>
-  );
+    </div>
+    );
 }
 
 export default UltimoUsuario;

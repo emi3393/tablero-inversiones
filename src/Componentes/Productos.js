@@ -15,7 +15,9 @@ function Productos() {
   }, [])
   
   return (
-    <h1>La cantidad de productos es {resultado.count}</h1>
+    <div className='fondoOscuro'>
+    <h1>La cantidad de productos que ofrecemos son {resultado.count}. </h1>
+    </div>
   );
 }
 

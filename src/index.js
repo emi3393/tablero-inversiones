@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import "./igna.css"
 //import App from './App';
 import Productos from './Componentes/Productos';
 import Usuarios from './Componentes/Usuarios';
@@ -15,8 +16,8 @@ root.render(
   <React.StrictMode>
     <Usuarios />
     <Productos />
-    <Categorias />
     <Productos2 />
+    <Categorias />
     <UltimoUsuario />
     <UltimaInversion />
   </React.StrictMode>

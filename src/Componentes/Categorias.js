@@ -15,7 +15,9 @@ function Categorias() {
   }, [])
   
   return (
+    <div className='fondoOscuro'>
     <h1>En total hay {categorias.count} categorias de productos.</h1>
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import "../igna.css";
 // import './App.css';
 
 function Productos2() {
@@ -15,21 +16,20 @@ function Productos2() {
   }, [])
   
   return (
-    <div>
+    <div className='fondoOscuro'>
         <h1>Inventario de Inversiones</h1>
-        <ul>
-            {inversiones.map((inversion, i) => {
+              {inversiones.map((inversion, i) => {
                 return (
-                    <li key={i}>
+                    <ul key={i}>
+                      <div className='panelInferior'>
                         <h2>Nombre de inversión: {inversion.nombre_inversion} </h2>
                         <h2>ID de inversión: {inversion.id_inversion} </h2>
                         <h2>Tipo de riesgo: {inversion.riesgos.nombre_riesgo} </h2>
-                    </li>
+                      </div>                   
+                    </ul>
                 )
             })
-            }
-        </ul>
-        
+            }   
     </div>
   );
 }
